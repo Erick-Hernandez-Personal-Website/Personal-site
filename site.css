@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.name {
+    float: left;
+    font-size: 2.5rem;
+    padding: 10px;
+    color: white;
+}
+.links {
+    float: right;
+    font-size: 2.0rem;
+    padding: 10px;
+    color: white;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    /* background-color: rgb(212, 216, 217); */
+}
+.background-image {
+    background-image: url(background.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+.main {
+    color: aliceblue;
+}
+h1 {
+    padding-top: 100px;
+    padding-left: 50px;
+}
+p {
+    padding-left: 50px;
+    font-size: 1.5rem;
+}
+.social-icons {
+    position:relative;
+    /* bottom: 90px; */
+    /* width: 100%; */
+    color: rgb(212, 184, 22);
+    transition: color 0.2s;
+    padding: 10px;
+    margin: 0 20px;
+    text-align: center;
+    
+}
+.social-icons:hover {
+    color: #333333;
+}
+.photo1 {
+    
+    float: left;
+    width: 330px;
+    height: auto;
+    margin: 75px 10px 10px -2px;
+    padding-left: 10px;
+}
+.photo2 {
+    float: right;
+    width: 330px;
+    height: auto;
+    margin: 75px 10px 10px -2px;
+    padding-right: 10px;
+}
+.photo3 {
+    float: left;
+    width: 330px;
+    height: auto;
+    margin: 75px 10px 10px -2px;
+    padding-left: 10px;
+}
+.first {
+    display: block;
+    border: solid black;
+    background-color: rgb(80, 220, 220);
+    margin-block-start: 1.5em;
+    margin-block-end: 2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 2.5rem;
+
+}
